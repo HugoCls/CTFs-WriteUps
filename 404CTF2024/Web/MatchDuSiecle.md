@@ -79,7 +79,7 @@ Lorsque l'on ouvre le billet de la tribune qu'on a acheté précedemment, on obs
 POST /api/riche HTTP/2
 Host: le-match-du-siecle.challenges.404ctf.fr
 Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlpvcnAxX19fXyIsImJpbGxldHMiOnsiVklQIjowLCJMYXRlcmFsZSI6MSwiRmFtaWxpYWxlIjowLCJFc3QiOjAsIk91ZXN0IjowLCJOb3JkIGV0IFN1ZCI6MH0sImlhdCI6MTcxNDU1NTYxN30.DVHnxb3mPW4rYu48tSBpGdF-O-btNu_GXAs0uBN9Db0; balance=10
-..
+.
 Priority: u=1, i
 
 {"token":"Laterale"}
