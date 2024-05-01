@@ -22,7 +22,7 @@ On peut intercepter la requête partante lors de la tentative d'achat d'un bille
 POST /api/verification HTTP/2
 Host: le-match-du-siecle.challenges.404ctf.fr
 Cookie: token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlpvcnAxX19fXyIsImJpbGxldHMiOnsiVklQIjowLCJMYXRlcmFsZSI6MCwiRmFtaWxpYWxlIjowLCJFc3QiOjAsIk91ZXN0IjowLCJOb3JkIGV0IFN1ZCI6MH0sImlhdCI6MTcxNDU1NTMyMn0.C5NoOlKy_nyvZ1ivzZdCOIuip8NDAN_qvqqKVY2MK79_IndlMFHQSGS2kVHjJg-8O1jZcvpf4PGW698ipXDY27yfvvNADdb1srf8w2ib2MTRT-OgfRte6zPQo5qj8_VxmnSjC6Y6tGF1jbvWcPJ8uIY462w7dEr_BrYZHssd9-qbWqHI1XF713aVIWI_5OGcu-1RyRxOdgbVmq_cW73G_kyS4f9c-3uzca69ZWrZB8LpEgiIkShB-ADk8a7qbmT0c14ybVV7B6wvlsmqXJNHMp2wqRtD7uL-YLcHFjzNFUHiUDYXPvHNqWVqJQ9zrWWe9kDvTT6zNzQaK3w-_zh_ZQ; balance=0
-...
+..
 Priority: u=1, i
 
 {"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlpvcnAxX19fXyIsImJpbGxldHMiOnsiVklQIjowLCJMYXRlcmFsZSI6MCwiRmFtaWxpYWxlIjowLCJFc3QiOjAsIk91ZXN0IjowLCJOb3JkIGV0IFN1ZCI6MH0sImlhdCI6MTcxNDU1NTMyMn0.C5NoOlKy_nyvZ1ivzZdCOIuip8NDAN_qvqqKVY2MK79_IndlMFHQSGS2kVHjJg-8O1jZcvpf4PGW698ipXDY27yfvvNADdb1srf8w2ib2MTRT-OgfRte6zPQo5qj8_VxmnSjC6Y6tGF1jbvWcPJ8uIY462w7dEr_BrYZHssd9-qbWqHI1XF713aVIWI_5OGcu-1RyRxOdgbVmq_cW73G_kyS4f9c-3uzca69ZWrZB8LpEgiIkShB-ADk8a7qbmT0c14ybVV7B6wvlsmqXJNHMp2wqRtD7uL-YLcHFjzNFUHiUDYXPvHNqWVqJQ9zrWWe9kDvTT6zNzQaK3w-_zh_ZQ"}
@@ -79,7 +79,7 @@ Lorsque l'on ouvre le billet de la tribune qu'on a acheté précedemment, on obs
 POST /api/riche HTTP/2
 Host: le-match-du-siecle.challenges.404ctf.fr
 Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlpvcnAxX19fXyIsImJpbGxldHMiOnsiVklQIjowLCJMYXRlcmFsZSI6MSwiRmFtaWxpYWxlIjowLCJFc3QiOjAsIk91ZXN0IjowLCJOb3JkIGV0IFN1ZCI6MH0sImlhdCI6MTcxNDU1NTYxN30.DVHnxb3mPW4rYu48tSBpGdF-O-btNu_GXAs0uBN9Db0; balance=10
-...
+..
 Priority: u=1, i
 
 {"token":"Laterale"}
