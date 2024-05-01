@@ -12,7 +12,7 @@ Connexion: `https://en-retard.challenges.404ctf.fr`
 On arrive directement sur une page vierge avec un panneau nous signalant une interdiction
 
 <p align="center">
-    <img src="../image/404CTFWeb1.png" alt="img1" style="width:40%;">
+    <img src="../images/404CTFWeb1.png" alt="img1" style="width:40%;">
 </p>
 
 En inspectant le code source on tombe sur un script js intéressant:
