@@ -14,7 +14,7 @@ Il s'agit d'un site de vente de billets dans lequel on peut s'inscrire.
 Une fois inscrit on observe qu'un solde est associé à notre compte, de plus sont disponibles à la vente 5 Tribunes, dont la VIP dont les ventes sont épuisées.
 
 <p align="center">
-    <img src="../images/404CTFWeb2.png" alt="img1" style="width:40%;">
+    <img src="../../images/404CTFWeb2.png" alt="img1" style="width:40%;">
 </p>
 
 On peut intercepter la requête partante lors de la tentative d'achat d'un billet:
