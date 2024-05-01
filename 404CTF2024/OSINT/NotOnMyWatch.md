@@ -14,7 +14,7 @@ Auteur: **@HgAt**
 
 ## Analyse de la photo
 pocket_watch.png
-<p align="center">
+<p>
     <img src="../../images/404CTFOSINT2.png" alt="img1" style="width:50%;">
 </p>
 

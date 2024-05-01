@@ -18,7 +18,7 @@ Nous recherchons:
 
 En se rendant sur [Wikipedia](https://fr.wikipedia.org/wiki/Championnats_du_monde_de_ski_alpin) on peut facilement voir l'historique des championnes du monde de Ski.
 
-<p align="center">
+<p>
     <img src="../../images/404CTFOSINT1.png" alt="img1" style="width:50%;">
 </p>
 
