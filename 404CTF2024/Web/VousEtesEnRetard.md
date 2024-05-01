@@ -54,9 +54,9 @@ bouton.addEventListener('click', function() {
         alert('Billet non validé');
     }
 });
-
-## Exploitation
 ```
+## Exploitation
+
 On peut alors soit modifier la variable `window.validable` pour y inclue un id, soit directement faire une requête POST au chemin `/set_cookie`.
 ```http
 POST /set_cookie HTTP/2
