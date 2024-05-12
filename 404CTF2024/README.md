@@ -4,13 +4,13 @@ Challenge [404CTF](https://www.404ctf.fr/) organisé par Télécom SudParis et l
 
 Je suis arrivé 471e (sur 3271) avec 1981 points.
 
-![scoreboard](images/404CTFReadme3.png)
+![scoreboard](../images/404CTFReadme3.png)
 
-![scoreboard](images/404CTFReadme2.png)
+![scoreboard](../images/404CTFReadme2.png)
 
 ## Épreuves par catégorie
 
-![scoreboard](images/404CTFReadme1.png)
+![scoreboard](../images/404CTFReadme1.png)
 
 ## Divers
 
