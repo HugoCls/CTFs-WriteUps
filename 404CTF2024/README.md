@@ -6,7 +6,7 @@ Je suis arrivé 471e (sur 3271) avec 1981 points.
 
 <img src="../images/404CTFReadme3.png" alt="TryHackMe" style="width: 33%; height: auto;">
 
-![scoreboard](../images/404CTFReadme2.png)
+<img src="../images/404CTFReadme2.png" alt="TryHackMe" style="width: 50%; height: auto;">
 
 ## Épreuves par catégorie
 
