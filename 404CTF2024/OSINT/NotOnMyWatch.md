@@ -15,7 +15,7 @@ Auteur: **@HgAt**
 ## Analyse de la photo
 pocket_watch.png
 <p>
-    <img src="../../images/404CTFOSINT2.png" alt="img1" style="width:50%;">
+    <img src="../../Platforms/images/404CTFOSINT2.png" alt="img1" style="width:50%;">
 </p>
 
 Nous remarquons une montre:
