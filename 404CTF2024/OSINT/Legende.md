@@ -19,7 +19,7 @@ Nous recherchons:
 En se rendant sur [Wikipedia](https://fr.wikipedia.org/wiki/Championnats_du_monde_de_ski_alpin) on peut facilement voir l'historique des championnes du monde de Ski.
 
 <p>
-    <img src="../../Platforms/images/404CTFOSINT1.png" alt="img1" style="width:50%;">
+    <img src="../../_Platforms/images/404CTFOSINT1.png" alt="img1" style="width:50%;">
 </p>
 
 En se rendant sur le premier championnat du monde de ski alpin organisé en France (à Chamonix) on apprendre Emile Allais a été sacré sur trois disciplines: Descente, Slalom et Combiné lors de la même compétition.
