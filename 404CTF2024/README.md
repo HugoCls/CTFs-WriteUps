@@ -4,7 +4,7 @@ Challenge [404CTF](https://www.404ctf.fr/) organisé par Télécom SudParis et l
 
 Je suis arrivé 471e (sur 3271) avec 1981 points.
 
-![scoreboard](../images/404CTFReadme3.png)
+<img src="../images/404CTFReadme3.png" alt="TryHackMe" style="width: 33%; height: auto;">
 
 ![scoreboard](../images/404CTFReadme2.png)
 
