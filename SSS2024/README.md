@@ -1,4 +1,4 @@
-# Security Summer School UPB - Qualifications
+# Security Summer School 2024 - Qualifications
 
 Summer Bootcamp [SSS](https://github.com/security-summer-school) organisé par UPB & Keysight Technologies Romania.
 
