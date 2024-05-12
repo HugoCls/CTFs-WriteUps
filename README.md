@@ -1,7 +1,7 @@
-# CTFs-writeups
-Writeups for various CTFs competitions.
+# CTFs-WriteUps
+WriteUps for various CTFs competitions.
 
-On this page you can find links to writeups for the following categories:
+On this page you can find writeups for the following categories:
 - [Web](#web)
 - [Cryptography](#cryptography)
 - [Steganography](#steganography)
