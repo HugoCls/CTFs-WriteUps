@@ -1,4 +1,4 @@
-# 404CTF 2022
+# 404CTF 2024
 
 Challenge [404CTF](https://www.404ctf.fr/) organisé par Télécom SudParis et la DGSE.
 
