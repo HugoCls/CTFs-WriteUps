@@ -1,0 +1,14 @@
+le texte est mis en lower()
+
+banwords:
+?
+/
+javascript
+mouse
+document
+script
+img
+href
+&#
+
+

