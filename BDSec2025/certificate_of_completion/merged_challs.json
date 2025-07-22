@@ -1,0 +1,290 @@
+[
+  {
+    "quest_title": "KShackZone’s Phishing Breach Investigation",
+    "category": "Digital Forensics",
+    "points": 0,
+    "solved": true,
+    "solved_at": "2025-07-20T17:01:20.848891+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "RiddleMe",
+    "category": "MISC",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T15:33:18.353793+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Riddle of The Child and the Thirteenth",
+    "category": "MISC",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T17:29:25.555963+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "The Promise Was Not True",
+    "category": "MISC",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T20:41:23.051786+00:00",
+    "solver": "Estll_"
+  },
+  {
+    "quest_title": "Hosts",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T15:14:58.325656+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Ports",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T15:19:21.535876+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Poisoned Ledger hex",
+    "category": "Digital Forensics",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T17:37:43.372397+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Router",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T15:25:59.114337+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Enumeration",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T19:09:50.697051+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Creadentials",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T19:22:07.251020+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "CVE",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T19:46:21.364616+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "FileName & Param ",
+    "category": "Networking",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-21T08:37:24.893337+00:00",
+    "solver": "Estll_"
+  },
+  {
+    "quest_title": "Evil File reader",
+    "category": "Web",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T20:31:14.179915+00:00",
+    "solver": "Estll_"
+  },
+  {
+    "quest_title": "Special Access",
+    "category": "Web",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-20T22:23:59.110920+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Rex’s Counter Crisis",
+    "category": "PWN & Jail",
+    "points": 50,
+    "solved": true,
+    "solved_at": "2025-07-21T09:18:32.884995+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "revME",
+    "category": "Reverse Engineering",
+    "points": 70,
+    "solved": true,
+    "solved_at": "2025-07-20T18:50:53.410069+00:00",
+    "solver": "Estll_"
+  },
+  {
+    "quest_title": "Version",
+    "category": "Networking",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-20T19:45:07.949569+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Hacker App",
+    "category": "Reverse Engineering",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-21T09:21:06.986516+00:00",
+    "solver": "Jeremy&Baptiste"
+  },
+  {
+    "quest_title": "Minar ’52 Enigma",
+    "category": "Reverse Engineering",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-20T16:16:23.403316+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Yeti Killer",
+    "category": "Web",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-20T17:21:45.406702+00:00",
+    "solver": "0x_sytryx"
+  },
+  {
+    "quest_title": "Quantum Mirage",
+    "category": "Cryptography",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-20T18:52:47.027256+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Woody’s Hidden Trigger",
+    "category": "PWN & Jail",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-21T08:51:58.021149+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Buzz’s Memory Mission",
+    "category": "PWN & Jail",
+    "points": 100,
+    "solved": true,
+    "solved_at": "2025-07-21T09:07:00.387601+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Key to Execution",
+    "category": "Networking",
+    "points": 160,
+    "solved": true,
+    "solved_at": "2025-07-21T12:38:23.669644+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Phishing Trail",
+    "category": "Digital Forensics",
+    "points": 205,
+    "solved": true,
+    "solved_at": "2025-07-21T14:37:36.716593+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "User Name",
+    "category": "Networking",
+    "points": 315,
+    "solved": true,
+    "solved_at": "2025-07-21T13:10:16.053219+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Small Jail Portal",
+    "category": "PWN & Jail",
+    "points": 315,
+    "solved": true,
+    "solved_at": "2025-07-21T08:16:01.261172+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Hidden in Plain Sight",
+    "category": "Digital Forensics",
+    "points": 335,
+    "solved": true,
+    "solved_at": "2025-07-21T14:48:57.182562+00:00",
+    "solver": "zorp_"
+  },
+  {
+    "quest_title": "Shell",
+    "category": "Networking",
+    "points": 390,
+    "solved": true,
+    "solved_at": "2025-07-21T13:15:35.351893+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "Crack the Credentials",
+    "category": "Digital Forensics",
+    "points": 405,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
+    "quest_title": "Binary",
+    "category": "Networking",
+    "points": 405,
+    "solved": true,
+    "solved_at": "2025-07-21T13:20:17.768214+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "File Name",
+    "category": "Networking",
+    "points": 410,
+    "solved": true,
+    "solved_at": "2025-07-21T13:21:19.130500+00:00",
+    "solver": "idosa"
+  },
+  {
+    "quest_title": "TasmotaHack",
+    "category": "Reverse Engineering",
+    "points": 450,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
+    "quest_title": "Chant of the Drones",
+    "category": "Digital Forensics",
+    "points": 460,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
+    "quest_title": "Command and Control",
+    "category": "Digital Forensics",
+    "points": 490,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
+    "quest_title": "Time Based Caesar",
+    "category": "Cryptography",
+    "points": 500,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  }
+]
