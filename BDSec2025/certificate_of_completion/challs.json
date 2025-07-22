@@ -410,6 +410,30 @@
             "script": "/plugins/dynamic_challenges/assets/view.js"
         },
         {
+            "id": 12,
+            "type": "dynamic",
+            "name": "Shadow Movement",
+            "value": 485,
+            "solves": 4,
+            "solved_by_me": false,
+            "category": "Digital Forensics",
+            "tags": [],
+            "template": "/plugins/dynamic_challenges/assets/view.html",
+            "script": "/plugins/dynamic_challenges/assets/view.js"
+        },
+        {
+            "id": 13,
+            "type": "dynamic",
+            "name": "False Patches",
+            "value": 490,
+            "solves": 3,
+            "solved_by_me": false,
+            "category": "Digital Forensics",
+            "tags": [],
+            "template": "/plugins/dynamic_challenges/assets/view.html",
+            "script": "/plugins/dynamic_challenges/assets/view.js"
+        },
+        {
             "id": 14,
             "type": "dynamic",
             "name": "Command and Control",

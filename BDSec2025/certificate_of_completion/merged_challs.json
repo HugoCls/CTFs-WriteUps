@@ -272,6 +272,22 @@
     "solver": null
   },
   {
+    "quest_title": "Shadow Movement",
+    "category": "Digital Forensics",
+    "points": 485,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
+    "quest_title": "False Patches",
+    "category": "Digital Forensics",
+    "points": 490,
+    "solved": false,
+    "solved_at": null,
+    "solver": null
+  },
+  {
     "quest_title": "Command and Control",
     "category": "Digital Forensics",
     "points": 490,

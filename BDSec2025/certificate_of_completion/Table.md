@@ -35,4 +35,6 @@
 | Chant of the Drones | Digital Forensics | 460 |  |  |
 | Command and Control | Digital Forensics | 490 |  |  |
 | Crack the Credentials | Digital Forensics | 405 |  |  |
+| False Patches | Digital Forensics | 490 |  |  |
+| Shadow Movement | Digital Forensics | 485 |  |  |
 | TasmotaHack | Reverse Engineering | 450 |  |  |
