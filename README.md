@@ -5,7 +5,7 @@ WriteUps for various CTFs competitions.
 ### Events
 | CTF | Result | Team | Date |
 |-----|-----|-----|-----|
-|[BDSec2025](https://2025.bdsec-ctf.com/teams/542)|12/650 (top 1.8%)|forgot_password|07/2025|
+|[BDSec2025](https://2025.bdsec-ctf.com/teams/542)|13/650 (top 1.8%)|forgot_password|07/2025|
 |Hack'lantique|8/40|team|03/2025|
 |TRACS|40/100|team|12/2024|
 |DefCamp|top 20%|solo|09/2024|
